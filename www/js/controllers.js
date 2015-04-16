@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['chart.js'])
 
 /*.controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
     // Form data for the login modal
@@ -79,6 +79,17 @@ angular.module('starter.controllers', [])
     }
 })
 .controller('profileCtrl', function ($scope) {
+    // CHART DATA
+  $scope.labels = ["Wk 1", "Wk 2", "Wk 3", "Wk 4", "Wk 5", ];
+    $scope.series = ['Series A', 'Series B'];
+    $scope.data = [
+    [65, 59, 80, 81, 56],
+    [28, 48, 40, 19, 86]
+  ];
+    $scope.onClick = function (points, evt) {
+        console.log(points, evt);
+    };
+    
 })
 .controller('clientCtrl', function ($scope) {
 })

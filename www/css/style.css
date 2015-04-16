@@ -1,1 +1,189 @@
 /* Empty. Add your own CSS if you like */
+/*NAVIGATION STUFFS*/
+
+
+/*GLOBAL STUFFS*/
+
+* {
+    font-family: 'Baumans', cursive;
+}
+
+h1,h2,h3,h4,h5{
+        font-family: 'Baumans', cursive;
+
+}
+
+a,p{
+    text-decoration: none;
+    color: #124960;
+}
+
+a:hover{
+    color: #387EF5;
+    transition: all .5s;
+    
+}
+
+ input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+     margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+fieldset {
+    border: none;
+    color: #124960;
+    text-align: center;
+}
+
+
+/*HEADER STUFFS*/
+.nav {
+    height: 44px;
+    background-color: #124960;
+}
+
+.micon {
+    position: relative;
+    left: 5px;
+    top: 2px;
+    width: 80px;
+}
+
+/*  LOGIN STUFSS  */
+
+.easeForm {
+    position: relative;
+    top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.loginlogo {
+    max-width: 458px;
+    margin: 0 auto;
+}
+.logeaselogo {
+    width: 100%;
+    
+}
+
+.loginbtn{
+    background-color: #124960;
+}
+
+/*SIGNUP STUFFS*/
+
+#ratehead{
+    margin: 2%;
+}
+.create-account {
+    position: relative;
+    height: 9px;
+    color: #124960;
+}
+.suForm{
+    top: 55px;
+    text-align: center;
+}
+
+/* PROFILE INFO*/
+
+#profilepage {
+    width: 100%;
+    height: 528px;
+    margin: 0 auto;
+}
+
+.profilea {
+    width: 100%;
+    height: 239px;    
+}
+.profileb {
+    width: 100;
+    height: 50px;
+    border-top: thin double #124960;
+    border-bottom: thin double #124960;
+}
+
+.profilec {
+    width: 100%;
+    height: 239px;
+}
+
+.profilepicd {
+    max-width: 65px;
+    margin: 0 auto;
+}
+.profilepic {
+    width: 100%;
+     margin: 15% auto;
+}
+
+.poftop {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info {
+    font-size: 15px ;
+    color: #124960;
+    margin-bottom: 2%;
+}
+
+.profileslider li {
+    display: inline;
+    width: 32%;
+    font-size: 12px;
+}
+
+.profileslider li span{
+    position: relative;
+}
+
+.profileslider {
+    height: 25px;
+    position: relative;
+    top: 9px;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.psbot {
+    top: 10px;
+    width: 76px;
+}
+.hwbot {
+    top: 10px;
+    width: 14px;
+    right: 15px;
+
+}
+.ibot {
+    top: 10px;
+    right: 35px;
+}
+.datebot {
+    top: 10px;
+    right: 44px;
+
+}
+
+.rgtarw {
+    position: relative;
+    float: right;
+    right:7px;
+    top: 5px;
+        
+}
+.lftarw {
+    position: relative;
+    top: 15px;
+    left: 7px;
+        
+}

@@ -1,64 +1,41 @@
 <ion-view>
     <ion-content>
-      <div id="profilepage">
-    <div id="clientbar">
-
-        <span class="clienthead" mb-scrollbar="scrollbarConfig">Clients</span>
-        <img src="images/clientrule.png" class="clientrule" alt="">
-        <a class="addclient" href="addClient"><i class="fa fa-user-plus fa-3x addusr"></i>
-        <span class="adduser">Add User</span></a>
-
-    </div>
-    <div id="profile">
-        <div class="usertop">
-            <div class="utleft">
-                <img class="profimg" src="views/images/photo.png" alt="">
-                <span class="pjtdetails">
-                    <h3 class="clientT">Client Term</h3>
-                    <span class="clientTime">Oct 15,2015 -- Dec 23, 2015</span>
-                </span>
+        <div id="profilepage">
+            <div class="profilea">
+                <div class="poftop">
+                    <div class="profilepicd">
+                        <img class="profilepic" src="/templates/images/defaultimg.png" alt="">
+                    </div>
+                    <div>
+                        <span class="info"><i class="icon ion-home"></i>&nbsp;&nbsp;Natchez Designs</span>
+                        <br>
+                        <span class="info"><i class="icon ion-android-phone-portrait"></i>&nbsp;&nbsp;252.808.7926</span>
+                        <br>
+                        <span class="info"><i class="icon ion-android-mail"></i>&nbsp;&nbsp;afnatchez@gmail.com</span>
+                    </div>
+                </div>
             </div>
-            <div class="utright">
-                <span class="userinfo">
-                    <h1 class="userheader">{{user.username}}</h1>
-                    <span class="userdesc">Help with Johnspikes UI/UX Design</span>
-                <img src="views/images/userinforule.png" class="usrir" alt="">
-                </span>
-                <i class="fa fa-mobile fa-5x picon piconc"></i><span class="uinfo uinfoc">{{user.phone}}</span>
-                <br>
-                <i class="fa fa-briefcase fa-3x picon"></i><span class="uinfo">{{user.street}}</span>
-                <br>
-                <i class="fa fa-envelope fa-3x picon"></i><span class="uinfo">{{user.email}}</span>
-            </div>
-        </div>
-        <div class="userbot">
-            <div class="lyticsleg">
-                <i class="fa fa-area-chart fa-3x charticon"></i>
-                <h3 class="lyticshead">Analytics</h3>
-                <span class="lyticsdate">Jan 2015</span>
-                <ul class="lyticsul">
-                    <li class="lyticsli"><span class="lynum">135</span>
-                        <br><span class="lytxt">Hours Worked</span>
-                    </li>
-                    <li class="lyticsli"><span class="lynum">5</span>
-                        <br><span class="lytxt">New Clients</span>
-                    </li>
-                    <li class="lyticsli"><span class="lynum">$1352.45</span>
-                        <br><span class="lytxt">Revenue</span>
-                    </li>
-                    <li class="lyticsli"><span class="lynum">135</span>
-                        <br><span class="lytxt">Timers Saved</span>
-                    </li>
-                    <li class="lyticsli"><span class="lynum">12</span>
-                        <br><span class="lytxt">New Projects</span>
-                    </li>
-                </ul>
+            <ion-slide-box>
+                <ion-slide class="profileb">
+                    <ul class="profileslider">
+                        <li><span class="pstop">October</span><span class="psbot datebot">2015</span>
+                        </li>
+                        <li><span class="pstop">85</span><span class="psbot hwbot">Hours Worked</span>
+                        </li>
+                        <li><span class="pstop">$1235</span><span class="psbot ibot">Est. Income</span>
+                            <i class="icon ion-chevron-right rgtarw"></i>
+                        </li>
+                    </ul>
+                </ion-slide>
+                <ion-slide class="profileb">
+                    <i class="icon ion-chevron-left lftarw"></i>
+
+                </ion-slide>
+            </ion-slide-box>
+            <div class="profilec">
                 <canvas id="line" class="chart chart-line" data="data" labels="labels" legend="true" series="series" click="onClick">
                 </canvas>
             </div>
-
         </div>
-    </div>
-</div>
     </ion-content>
 </ion-view>

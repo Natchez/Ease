@@ -213,25 +213,6 @@ connectionpool.getConnection(function (err, connection) {
 });
 });
 
-/*
-{username:"asdaddsd",
-fname:"hjgh",
-street:"ghj",
-state:"GA",
-lname:"asd"
-,password:"dsa",
-city:"dsadsadsa",
-zip:12345,company:
-"dsadsadasddsa",phone:"
-5464"
-,email:"4561",
-lrate:123,
-mrate:456,
-hrate:789}'
-'*/
-
-
-
 
 /////////////////////////////////////////// CREATE SERVER STUFFS /////////////////////////////////////
 
