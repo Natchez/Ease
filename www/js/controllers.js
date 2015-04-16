@@ -92,6 +92,7 @@ angular.module('starter.controllers', ['chart.js'])
     
 })
 .controller('clientCtrl', function ($scope) {
+    $scope.listCanSwipe = true
 })
 .controller('archiveCtrl', function ($scope) {
 });
